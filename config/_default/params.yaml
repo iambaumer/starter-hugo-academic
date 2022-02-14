@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: ''
+theme: photobaum
+day_night: false
+font: 'photobaum'
 font_size: L
 
 # SEO
@@ -15,45 +15,45 @@ font_size: L
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
-twitter: ''
+description: 'Personal résumé for Alex Baum of Fitchburg, Wisconsin'
+twitter: 'photobaumwi'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+email: alex@photobaumwi.com
+phone: 414-793-7503
+#address:
+#  street: 450 Serra Mall
+#  city: Stanford
+#  region: CA
+#  postcode: '94305'
+#  country: United States
+#  country_code: US
+#coordinates:
+#  latitude: '37.4275'
+#  longitude: '-122.1697'
+#directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+#office_hours:
+#  - 'Monday 10:00 to 13:00'
+#  - 'Wednesday 09:00 to 10:00'
+#appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
+    name: Twitter
+    link: 'https://twitter.com/photobaumwi'
+  - icon: facebook-f
     icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
+    name: Facebook
+    link: 'https://facebook.com/photobaumwi'
+  - icon: linkedin
     icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: LinkedIn
+    link: 'https://linkedin.com/in/iambaumer'
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -62,14 +62,14 @@ main_menu:
   align: l
   show_logo: true
   show_language: false
-  show_day_night: true
+  show_day_night: false
   show_search: true
   highlight_active_link: true
 
 # Localization
 
 date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
+time_format: '15:04'
 address_format: en-us
 
 # Site features
@@ -89,11 +89,11 @@ edit_page:
     post: false
     book: false
 show_related:
-  book: true
+  book: false
   page: false
   post: true
   project: true
-  publication: true
+  publication: false
   event: true
 reading_time: true
 section_pager: false
@@ -102,7 +102,7 @@ sharing: true
 copyright_license:
   enable: false
   allow_derivatives: false
-  share_alike: true
+  share_alike: false
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 abstract_length: 135
